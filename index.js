@@ -39,7 +39,7 @@ function creaCard(immagine, titolo, descrizione) {
 
   // Aggiungi il pulsante Modifica
   const btnModifica = document.createElement("a");
-  btnModifica.className = "btn btn-primary";
+  btnModifica.className = "btn btn-warning";
   btnModifica.textContent = "Modifica";
   body.appendChild(btnModifica);
 
